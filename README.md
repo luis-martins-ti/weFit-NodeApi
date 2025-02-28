@@ -2,24 +2,24 @@
 
 Seja bem vindo ao teste de backend da Wefit.
 
-### Para iniciar o banco de dados é necessario ter o docker-compose instalado em sua máquina e rodar o seguinte comando:
+### 1 - Para iniciar o banco de dados é necessario ter o docker-compose instalado em sua máquina e rodar o seguinte comando:
 ```bash
     docker-compose up -D
 ```
 o docker-compose vai criar um container de um MySQL e você poderá acessar via localhost:3306 e a senha do usuário **root** é **senha_root_123**
 
-### Copie ou Renomeie o arquivo.env.example para .env
+### 2 - Copie ou Renomeie o arquivo.env.example para .env
 
-### Para instalar as dependências 
+### 3 - Para instalar as dependências 
 ```bash
     npm install
 ```
-### Para compilar o projeto Typescript
+### 4 - Para compilar o projeto Typescript
 ```bash
     npx tsc
 ```
 
-### Para iniciar o servidor express basta executar o seguinte comando:
+### 5 - Para iniciar o servidor express basta executar o seguinte comando:
 ```bash
     npx ts-node src/server.ts
 ```
